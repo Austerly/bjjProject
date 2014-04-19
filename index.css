@@ -1,3 +1,122 @@
-div {
-border: solid 1px green;
+body {
+background-image:url('http://www.all-wallpapers.net/wp-content/uploads/2012/09/Shark_underwater_theme_wallpaper_High_definition_wallpaper.jpg');
+background-size: auto 100%;
+background-repeat: no-repeat;
+background-color: #7CA4E5;
 }
+	div {
+/*	border: solid 1px green; 
+*/	}
+	a {
+	text-decoration: none;
+	color: inherit;
+	}
+	img {
+	width: 100%;
+	opacity: 0.4;
+	}
+	img:hover {
+	opacity:1;
+	 -webkit-box-shadow: 0 10px 50px #4d4d4d;
+ 	-moz-box-shadow: 0 10px 50px #4d4d4d;
+ 	box-shadow: 0 10px 50px #4d4d4d;
+	}
+
+	#header {
+	width: 90%;
+	height: 20%;
+	margin: auto;
+	}
+		#logo {
+		width: 10%;
+		height: 60%;
+		display:inline-block;
+		background-color:green;
+		float: left;
+		visibility: hidden;
+		}
+		h1 {
+		text-align: center;
+		margin: 10% auto auto auto;
+		}
+		ul {
+		height: 100%;
+		width: 100%;
+		}
+		
+		input {
+		float:right;
+		margin: auto;
+		margin-top: 2%;
+		}
+	#subheader {
+	height: 10%;
+	width: 90%;
+	margin: auto;
+	}
+		.buttons {
+		float: left;
+		/*border: solid 1px green;*/
+		font-size: 1.2em;
+		margin: auto;
+		border-radius: 25%;
+		padding: .5em;
+		}
+		.buttons:hover {
+		-webkit-box-shadow: 0 10px 8px #7CA4E5;
+ 		-moz-box-shadow: 0 10px 8px #7CA4E5;
+ 		box-shadow: 0 10px 8px #7CA4E5;
+ 		background-color: #4d4d4d;
+ 		opacity: .6;
+		}
+	#main {
+	width:90%;
+	margin: auto;
+	}
+
+	table {
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	}
+		td {
+		width: 5%;
+		height: 5%;
+		text-align: center;
+		padding: 3%;
+		}
+			.initGrid > img {
+				width:100%;
+			}
+			.initGrid {
+			width: 100%;
+			}
+				.slider {
+				display: none;
+				}
+.footer {
+display: block;
+width: 90%;
+height: 20%;
+margin: 2% auto;
+color: gray;
+}
+	#credit {
+	display: inline-block;
+	float: left;
+	margin-top: 10%;
+	}
+	#quote {
+	margin: auto auto auto 23%;
+	width:30%;
+	line-height: 1.5em;
+	display: inline-block;
+	text-align: center;
+	}
+	#wiki {
+	display: inline-block;
+	float: right;
+	margin-top: 10%;
+	text-decoration: none;
+	color: gray;
+	}

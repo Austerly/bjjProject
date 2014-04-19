@@ -1,21 +1,184 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="index.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<title>The Jiujitsu Library</title>
 </head>
 <body>
-	<div class="header">
+	<div id="header">
 		<div id="logo">
 		</div>
-		<h1>JiuJitsu Library</h1>
+		<h1>BJJ Library</h1>
 	</div>
-	
-	<div class="main">
+	<div id="subheader">
+				<h4 class="buttons">
+					<a href="index.html">
+						Home
+					</a>
+				</h4>
+				<h4 class="buttons">
+					About
+				</h4>				
+				<h4 class="buttons">
+					BJJ Lineage Tree
+				</h4>
+				<h4 class="buttons">
+				Request a Video
+				</h4>
+			<input type="text" placeholder="search for a technique" id="searcher">
+	</div>	
+	<div id="main">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<div id="standing" class="initGrid">
+							<img src="http://i1.ytimg.com/vi/OLhrsp0tkug/maxresdefault.jpg"/>
+							<h3>
+								Standing
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Standing Menu
+							</h3>
+							<a class="slider"href="menus/Standing/Throws/throws.html"> <img src="http://mobileblackbelt.net/content/app-hero-throws-1.jpg"/>
+							</a>
+							<h3 class="slider">
+								Throws
+							</h3>
+							<a class="slider" href="menus/Standing/Submissions/standingSubmissions.html"><img src="http://img.howcast.com/thumbnails/503538/10_standing_rear_choke_xxxlarge.jpg"/>
+							</a>
+							<h3 class="slider">
+								Submissions
+							</h3>
+						</div>
+					</td>
+					<td>
+						<div id="guard" class="initGrid">
+							<img src="http://www.beginningbjj.com/images/eLessons/Bad_Open_Guard.jpg"/>
+							<h3>
+								Guard
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Guard Menu
+							</h3>							
+							<a class="slider" href=""><img src="http://www.beginningbjj.com/images/eLessons/Hand-on-Ground1.jpg"/>
+							</a>
+							<h3 class="slider">
+								In Guard
+							</h3>
+							<a class="slider" href=""><img src="http://www.beginningbjj.com/images/eLessons/Bad_Open_Guard.jpg"/>
+							</a>
+							<h3 class="slider">
+								Has Guard
+							</h3>
+						</div>
+					</td>
+					<td>
+						<div id="sideCtrl" class="initGrid">
+							<img src="http://i1.ytimg.com/vi/NOlnbFOKSrY/maxresdefault.jpg"/>
+							<h3>
+								Side Control
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Side Control Menu
+							</h3>											
+							<a class="slider" href=""><img src="http://www.grapplearts.com.php5-22.dfw1-1.websitetestlink.com/Blog/wp-content/uploads/2012/03/kesa-gatame.png"/>
+							</a>
+							<h3 class="slider">
+								Kesa Gatame or Scarf Hold
+							</h3>
+							<a class="slider" href=""><img src="http://content5.videojug.com/d6/d65efcdc-35ed-c85c-6a6a-ff0008cb2828/how-to-escape-side-control-using-the-ang.WidePlayer.jpg?v2"/>
+							</a>
+							<h3 class="slider">
+								Wrestler's Side Control
+							</h3>
+
+
+						</div>
+					</td>
+				</tr>
+					<td>
+
+						<div id="mount" class="initGrid">
+							<img src="http://i1.ytimg.com/vi/ShEow7GsUbU/maxresdefault.jpg"/>
+							<h3>
+								Mount
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Mount Menu
+							</h3>
+							<a class="slider" href=""><img src="http://www.bjj.org/wp-content/uploads/2011/08/mount-esc-upa.jpg"/>
+							</a>
+							<h3 class="slider">
+								In Mount
+							</h3>
+							<a class="slider" href=""><img src="http://bjjr.ru/techniques/craigwallace/crucifix/p/i01.jpg"/>
+							</a>
+							<h3 class="slider">
+								Has Mount
+							</h3>
+
+						</div>
+					</td>
+					<td>
+						<div id="backCtrl" class="initGrid">
+							<img src="http://i1.ytimg.com/vi/jkS9iuB_RLc/maxresdefault.jpg"/>
+							<h3>
+								Back Control
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Back Control Menu
+							</h3>
+							<a class="slider" href=""><img src="http://2.bp.blogspot.com/-6cT98WUfXkY/UJPWjDDff3I/AAAAAAAAAGw/mNw9QxsPI9E/s1600/Amanda+Leve+4.jpg"/>
+							</a>
+							<h3 class="slider">
+								In Back Control
+							</h3>
+							<a class="slider" href=""><img src="http://www.graciemag.com/pt/wp-content/uploads/2012/02/Kyra-ataca-as-costas-no-Jiu-Jitsu1.jpg"/>
+							</a>
+							<h3 class="slider">
+								Has Back Control
+							</h3>
+
+						</div>
+					</td>
+					<td>
+						<div id="unconventional" class="initGrid">
+							<img src="http://i1.ytimg.com/vi/VVsj5B-Mm3Y/maxresdefault.jpg"/>
+							<h3>
+								Other Positions &  Resources
+							</h3>
+							<h3 class="slider initGrid return">
+								Close Other Positions & Resources Menu
+							</h3>
+							<a class="slider" href=""><img src="http://s.mcstatic.com/thumb/9126038/24008848/4/flash_player/0/1/north_south_brabo_choke_jiu_jitsu_technique.jpg"/>
+							</a>
+							<h3 class="slider">
+								North-South Position
+							</h3>
+							<a class="slider" href=""><img src="http://www.tapout101.com/wp-content/uploads/2012/04/how-to-tie-your-belt.jpg"/>
+							</a>
+							<h3 class="slider">
+								How to Tie the Belt
+							</h3>
+
+						</div>
+					</td>
+				</tbody>
+		</table>
 	</div>
 
 	<div class="footer">
-		<div id="credit">
-		</div>
+			<h6 id="credit">
+				Website by Austin Hesterly
+			</h6>
+			<h4 id="quote">
+				"A boxer is like a lion, the greatest predator on land. But you throw him in the shark tank and he's just another meal." - Renzo Gracie
+			</h4>
+			<a id="wiki" href="http://wikipedia.org/wiki/Brazilian_jiu-jitsu">About BJJ
+			</a>
 	</div>
-
+	<script src="js/jqStyleMain.js"> </script>
 </body>
 </html>
