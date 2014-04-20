@@ -3,5 +3,7 @@ $(document). ready(function(){
 	$('.initGrid').click(function(){
 		$(this).children().slideToggle('slow');
 	});
-
+	// $('.initGrid').click(function(){
+	// 	$(this).children().slideUp('slow');
+	// });
 });
