@@ -1,0 +1,7 @@
+
+iframe {
+opacity: 0.4;
+}
+iframe:hover {
+opacity:1;
+}
