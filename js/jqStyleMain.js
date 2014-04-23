@@ -4,12 +4,12 @@ $(document).ready(function(){
 		$(this).children().slideToggle('slow');
 	});
 	//When a video is clicked, make it visible
-	$('.videos').mouseenter(function(){
-		$(this).children('iframe').css("opacity", "1");
-	});
+	// $('.videos').mouseenter(function(){
+	// 	$(this).children('iframe').css("opacity", "1");
+	// });
 	//When you are done with the video, make it fade again;
 
-	$('body').mouseleave(function(){
-		$('iframe').css("opacity", "0.4");
-	});
+	// $('body').mouseleave(function(){
+	// 	$('iframe').css("opacity", "0.4");
+	// });
 });
