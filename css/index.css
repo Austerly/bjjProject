@@ -151,24 +151,30 @@ float:left;
 width: 90%;
 height: 20%;
 margin: 2% 5%;
-color: gray;
+color: black;
 border-top: 1px solid #1C1C1C;
 }
 	#credit {
 	display: inline-block;
 	float: left;
-	margin-top: 10%;
+	margin: 10% auto auto;
+	font-size: 1em;
 	}
 		#credit > p:hover {
 		color: white;
 		}
 	#quote {
-	margin: auto auto auto 23%;
+	margin: auto;
 	width:30%;
 	line-height: 1.5em;
 	display: inline-block;
+	position: absolute;
 	text-align: center;
 	padding-top: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 1.2em;
+	color:black;
 	}
 		#quote:hover {
 		color: white;
@@ -176,9 +182,9 @@ border-top: 1px solid #1C1C1C;
 	#wiki {
 	display: inline-block;
 	float: right;
-	margin-top: 10%;
+	margin-top: 15%;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	}
 		#wiki:hover {
 		color: white;

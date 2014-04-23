@@ -1,16 +1,20 @@
-<html>
+<html ng-app="apper">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
 	<link rel="stylesheet" href="../../../css/index.css"/>
 	<link rel="stylesheet" href="../../../css/menus.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<title>Standing Submissions - The Jiujitsu Library</title>
+	<script src='http://code.angularjs.org/1.1.5/angular.js' type='text/javascript'></script>
+
+	<title>North - South Position - The Jiujitsu Library</title>
+	
 </head>
-<body>
+<body ng-controller="vidController">
 	<div id="header">
 		<div id="logo">
 		</div>
-		<h1>BJJ Library: Standing Submissions</h1>
+		<h1>BJJ Library: North - South</h1>
 	</div>
 	<div id="subheader">
 				<h4 class="buttons">
@@ -18,72 +22,49 @@
 						Home
 					</a>
 				</h4>
-				<h4 class="buttons">
-					BJJ Lineage Tree
-				</h4>
-				<h4 class="buttons">
-				Request a Video
-				</h4>
+
 				<h4 class="buttons">
 					About
 				</h4>
-			<input type="text" placeholder="search for a technique" id="searcher">
-	</div>	
+<!-- 			<input type="text" placeholder="search for a technique" id="searcher">
+ -->	</div>	
 	<div id="main">
-		<table>
+			<p class="sideline rotatedCounter">
+				Submissions
+			</p>
+		<table class="subTable">
 			<tbody>
-				<tr>
-					<td class="videos dimmer">
-							<iframe ?modestbranding=1&;showinfo=0&;autohide=1&;playsinline=0" frameborder="0" allowfullscreen>
-							</iframe>
-							<h3>
-								Flying Arm Bar - Aaron Ram & Dylan Fraser
-							</h3>
-					</td>
-					<td class='videos dimmer'>
-						<div id="videos">
-							<iframe ?modestbranding=1&;showinfo=0&;autohide=1&;playsinline=1" frameborder="0" allowfullscreen></iframe>							<h3>
-								Ude Gatame or Standing Arm Lock - Submissions 101
-							</h3>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div id="videos">
-							<iframe ?modestbranding=1&;showinfo=0&;autohide=1&;playsinline=1" frameborder="0" allowfullscreen>
-							</iframe>
-							<h3>
-								Standing Guillotine Choke - Dan Theodore
-							</h3>
-
-						</div>
-					</td>
-					<td>
-						<div id="videos">
-							<iframe ?modestbranding=1&;showinfo=0&;autohide=1&;playsinline=1" frameborder="0" allowfullscreen></iframe>
-							<h3>
-								How to Get Out of a Standing Guillotine - Babs Olusanmokun
-							</h3>
-						</div>
-					</td>
-				</tr>
-				</tbody>
+			</tbody>
 		</table>
+
+		<table class="defTable">
+			<tbody>
+			</tbody>
+		</table>
+		<p class="sideline clockwise">
+			Defenses
+		</p>
 	</div>
 
 	<div class="footer">
 			<h6 id="credit">
-				Website by Austin Hesterly
+				<p>Request a Video</p>
+				<p>
+				Website by Austin Hesterly</p>
 			</h6>
 			<h4 id="quote">
-				""
+				"If you think, you are late. If you are late, you use strength. If you use strength, you tire. And if you tire, you die." - Saulo Ribeiro
 			</h4>
 		<div id="wiki">
-			<a href="http://wikipedia.org/wiki/Brazilian_jiu-jitsu">About BJJ
+			<a href="http://wikipedia.org/wiki/Brazilian_jiu-jitsu">About Brazilian Jiu Jitsu
 			</a>
 		</div>
 	</div>
+
+
 	<script src="../../../js/jqStyleMain.js"> </script>
+	<script src="../../../js/app.js"></script>
+	<script src="../../../js/videoStyleNorthSouth.js"> </script>
+
 </body>
 </html>
