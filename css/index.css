@@ -24,7 +24,7 @@ background-attachment: fixed;
 
 	#header {
 	width: 90%;
-	height: 10%;
+	height: 20%;
 	margin: auto;
 	}
 		#logo {
@@ -37,7 +37,8 @@ background-attachment: fixed;
 		}
 		h1 {
 		text-align: center;
-		margin: 10% auto auto auto;
+		margin: auto;
+		padding-top: 5%;
 		}
 		ul {
 		height: 100%;
@@ -52,7 +53,8 @@ background-attachment: fixed;
 	#subheader {
 	height: 10%;
 	width: 90%;
-	margin: auto;
+	margin: 2% 5%;
+	border-bottom: 1px solid #1C1C1C;
 	}
 		.buttons {
 		float: left;
@@ -92,11 +94,12 @@ background-attachment: fixed;
 	margin: auto;
 	}
 		.subTable {
-		display: inline-block;
+		float:left;
+		margin-left: 5%;
 		}
 		.defTable {
-		display: inline-block;
 		float:right;
+		margin-right: 5%;
 		}
 		td {
 		width: 5%;
@@ -144,11 +147,12 @@ background-attachment: fixed;
 			cursor: default;
 			}
 .footer {
-display: block;
+float:left;
 width: 90%;
 height: 20%;
-margin: 2% auto;
+margin: 2% 5%;
 color: gray;
+border-top: 1px solid #1C1C1C;
 }
 	#credit {
 	display: inline-block;
