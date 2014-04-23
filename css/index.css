@@ -17,15 +17,17 @@ background-attachment: fixed;
 	}
 	img:hover {
 	opacity:1;
-	 -webkit-box-shadow: 0 10px 50px #4d4d4d;
+	-webkit-box-shadow: 0 10px 50px #4d4d4d;
  	-moz-box-shadow: 0 10px 50px #4d4d4d;
  	box-shadow: 0 10px 50px #4d4d4d;
 	}
 
 	#header {
-	width: 90%;
+	width: 80%;
 	height: 20%;
-	margin: auto;
+	margin: auto auto 2%;
+	border-bottom: 1px solid #1C1C1C;
+	padding-top: 5%;
 	}
 		#logo {
 		width: 10%;
@@ -35,10 +37,18 @@ background-attachment: fixed;
 		float: left;
 		visibility: hidden;
 		}
+		#inHeader {
+		margin: auto;
+		padding-top: 5%;
+		border-bottom: 1px solid #1C1C1C;
+		}
 		h1 {
 		text-align: center;
 		margin: auto;
-		padding-top: 5%;
+		}
+		h2 {
+		text-align: center;
+		margin: auto;
 		}
 		ul {
 		height: 100%;
@@ -165,13 +175,13 @@ border-top: 1px solid #1C1C1C;
 		}
 	#quote {
 	margin: auto;
-	width:30%;
+	width:40%;
 	line-height: 1.5em;
 	display: inline-block;
 	position: absolute;
 	text-align: center;
 	padding-top: 5%;
-	padding-left: 15%;
+	padding-left: 10%;
 	padding-right: 15%;
 	font-size: 1.2em;
 	color:black;
