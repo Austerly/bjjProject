@@ -12,7 +12,7 @@ background-attachment: fixed;
 	}
 	img {
 	width: 100%;
-	opacity: 0.6;
+	opacity: 0.8;
 	border-radius: 50%;
 	}
 	img:hover {
@@ -60,12 +60,6 @@ background-attachment: fixed;
 		margin: auto;
 		margin-top: 2%;
 		}
-	#subheader {
-	height: 10%;
-	width: 90%;
-	margin: 2% 5%;
-	border-bottom: 1px solid #1C1C1C;
-	}
 		.buttons {
 		float: left;
 		/*border: solid 1px green;*/
@@ -132,7 +126,6 @@ background-attachment: fixed;
  				-moz-box-shadow: 0 10px 8px #7CA4E5;
  				box-shadow: 0 10px 8px #7CA4E5;
  				background-color: #4d4d4d;
- 				opacity:0.4;
  				color: white;
  				border-radius: 25%;
 				}
