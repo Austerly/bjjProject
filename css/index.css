@@ -24,19 +24,12 @@ background-attachment: fixed;
 
 	#header {
 	width: 80%;
-	height: 20%;
-	margin: auto auto 2%;
+	height: 130px;
+	margin: auto 10% 2%;
 	border-bottom: 1px solid #1C1C1C;
 	padding-top: 5%;
+	float: left;
 	}
-		#logo {
-		width: 10%;
-		height: 60%;
-		display:inline-block;
-		background-color:green;
-		float: left;
-		visibility: hidden;
-		}
 		#inHeader {
 		margin: auto;
 		padding-top: 5%;
@@ -61,13 +54,9 @@ background-attachment: fixed;
 		margin-top: 2%;
 		}
 		.buttons {
-		float: left;
-		/*border: solid 1px green;*/
 		font-size: 1.2em;
-		margin: auto 2%;
 		border-radius: 25%;
 		padding: 1%;
-		/*border-top: black 1px solid;*/
 		border:#4d4d4d 1px solid;
 
 		}
@@ -78,6 +67,15 @@ background-attachment: fixed;
  		background-color: #4d4d4d;
  		opacity: .5;
  		color: white;
+		}
+		.leftButtons {
+		float: left;
+		margin: auto 4% auto auto;
+
+		}
+		.rightButton {
+		float: right;
+		margin: auto auto auto 4%;
 		}
 		#searcher {
 		border-radius: 25%;
@@ -151,43 +149,39 @@ background-attachment: fixed;
 			}
 .footer {
 float:left;
-width: 90%;
+width: 80%;
 height: 20%;
-margin: 2% 5%;
+margin: 2% 10%;
 color: black;
 border-top: 1px solid #1C1C1C;
 }
 	#credit {
-	display: inline-block;
 	float: left;
-	margin: 10% auto auto;
+	margin: auto;
 	font-size: 1em;
 	}
 		#credit > p:hover {
 		color: white;
 		}
 	#quote {
-	margin: auto;
+	margin: auto auto auto 10%;
+	float: left;
 	width:40%;
 	line-height: 1.5em;
-	display: inline-block;
-	position: absolute;
 	text-align: center;
-	padding-top: 5%;
-	padding-left: 10%;
-	padding-right: 15%;
-	font-size: 1.2em;
+	padding-top: 3%;
+	font-size: 1.1em;
 	color:black;
 	}
 		#quote:hover {
 		color: white;
 		}
 	#wiki {
-	display: inline-block;
 	float: right;
-	margin-top: 15%;
 	text-decoration: none;
 	color: black;
+	padding-top: 2%;
+	font-size: 1em;
 	}
 		#wiki:hover {
 		color: white;
