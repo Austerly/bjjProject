@@ -43,6 +43,9 @@ background-attachment: fixed;
 		text-align: center;
 		margin: auto;
 		}
+		.pageTitle {
+		color: white;
+		}
 		ul {
 		height: 100%;
 		width: 100%;
@@ -115,6 +118,10 @@ background-attachment: fixed;
 			.initGrid {
 			width: 100%;
 			cursor: pointer;
+			max-height: 200%;
+			overflow: scroll;
+			height: 120%;
+			
 			}
 				.slider {
 				display: none;

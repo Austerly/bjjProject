@@ -2,6 +2,13 @@ $(document).ready(function(){
 	//When an icon is clicked, create slide out menu
 	$('.initGrid').click(function(){
 		$(this).children().slideToggle('slow');
+		$('.initGrid').css('opacity', '.2');
+		// $('.return').css('opacity', '1');
+		$(this).css('opacity', '1');
+	})
+
+	$('slider').click(function(){
+		$('.initGrid').css('opacity', '.8');
 	});
 	//When a video is clicked, make it visible
 	// $('.videos').mouseenter(function(){
