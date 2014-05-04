@@ -16,7 +16,7 @@ background-attachment: fixed;
 	border-radius: 50%;
 	}
 	img:hover {
-	opacity:1;
+	opacity: 1;
 	-webkit-box-shadow: 0 10px 50px #4d4d4d;
  	-moz-box-shadow: 0 10px 50px #4d4d4d;
  	box-shadow: 0 10px 50px #4d4d4d;
@@ -39,9 +39,18 @@ background-attachment: fixed;
 		text-align: center;
 		margin: auto;
 		}
+		.sharkTankTitle {
+		text-shadow: 5px 5px 5px #2F2F2F;
+		text-decoration: underline;
+		}
 		h2 {
 		text-align: center;
 		margin: auto;
+		text-shadow: 5px 5px 8px black;
+		}
+		h3 {
+		text-shadow: 5px 5px 8px black;
+
 		}
 		.pageTitle {
 		color: white;
@@ -49,6 +58,7 @@ background-attachment: fixed;
 		ul {
 		height: 100%;
 		width: 100%;
+
 		}
 		
 		input {
@@ -60,7 +70,7 @@ background-attachment: fixed;
 		font-size: 1.2em;
 		border-radius: 25%;
 		padding: 1%;
-		border:#4d4d4d 1px solid;
+		border:#4d4d4d 2px solid;
 
 		}
 		.buttons:hover {
@@ -118,13 +128,17 @@ background-attachment: fixed;
 			.initGrid {
 			width: 100%;
 			cursor: pointer;
-			max-height: 200%;
 			overflow: scroll;
-			height: 120%;
-			
+			height: 240;
+			padding: 10%;
+			opacity: .8;
+			}
+			.opacity {
+			opacity: .2;
 			}
 				.slider {
 				display: none;
+				margin-bottom: 10%;
 				}
 				.return:hover {
 				-webkit-box-shadow: 0 10px 8px #7CA4E5;

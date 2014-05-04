@@ -1,22 +1,23 @@
 $(document).ready(function(){
 	//When an icon is clicked, create slide out menu
 	$('.initGrid').click(function(){
-		$(this).children().slideToggle('slow');
-		$('.initGrid').css('opacity', '.2');
-		// $('.return').css('opacity', '1');
-		$(this).css('opacity', '1');
-	})
+		//if slider is visible, do this
 
-	$('slider').click(function(){
-		$('.initGrid').css('opacity', '.8');
+		// if the slider is visible when clicked, fade in items and close slider
+		if ($(this).find("> .slider").is(":visible")) {
+
+		$(this).children().slideToggle('fast', 
+			function() {
+			$('.initGrid > img').css('opacity', '.8');
+		 	
+		 });
+		}
+		// else if the slider isn't visible toggle them and fade the other menu icons
+		else { 
+		$(this).children().slideToggle('fast', function(){
+			$('.initGrid > img').css('opacity', '.2');
+		});
+
+		}
 	});
-	//When a video is clicked, make it visible
-	// $('.videos').mouseenter(function(){
-	// 	$(this).children('iframe').css("opacity", "1");
-	// });
-	//When you are done with the video, make it fade again;
-
-	// $('body').mouseleave(function(){
-	// 	$('iframe').css("opacity", "0.4");
-	// });
 });
