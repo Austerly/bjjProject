@@ -9,6 +9,7 @@ $(document).ready(function(){
 		$(this).children().slideToggle('fast', 
 			function() {
 			$('.initGrid > img').css('opacity', '.8');
+			$('.techHeader').css('opacity', '.8');
 		 	
 		 });
 		}
@@ -16,6 +17,7 @@ $(document).ready(function(){
 		else { 
 		$(this).children().slideToggle('fast', function(){
 			$('.initGrid > img').css('opacity', '.2');
+			$('.techHeader').css('opacity', '.2');
 		});
 
 		}

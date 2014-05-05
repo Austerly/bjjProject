@@ -39,6 +39,8 @@ color: white;
 font-size: 2em;
 position: fixed;
 opacity: 0.4;
+text-shadow: 5px 5px 8px black;
+
 }
 .clockwise {
 margin: 25% 75%;
