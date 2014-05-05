@@ -22,4 +22,14 @@ $(document).ready(function(){
 
 		}
 	});
+	// $("#header").hide();
+	$(".centerButtons").hide().delay(300).fadeTo(7000, 1);
+	$(".footerMain").hide().delay(1000).fadeTo(1000, 1);
+	$(".mainTitle").hide().delay(7000).fadeTo(2000, 1);
+	$("#main > h2").hide().delay(10000).fadeTo(2000, 1);
+	$(".enter").css("opacity", "0");
+
+	$(".enter").delay(3000).fadeTo(4000, 1).delay(800).fadeTo(4000, 0);
+
+	$("mainTitle").fadeTo(2000, 1);
 });

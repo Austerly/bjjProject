@@ -31,6 +31,7 @@ background-attachment: fixed;
 	margin: auto 10% 2%;
 	border-bottom: 1px solid #1C1C1C;
 	padding-top: 5%;
+	padding-bottom: 1%;
 	float: left;
 	}
 		#inHeader {
@@ -88,7 +89,10 @@ background-attachment: fixed;
 		.leftButtons {
 		float: left;
 		margin: auto 4% auto auto;
-
+		}
+		.centerButtons {
+		margin: 2% 40%;
+		text-align: center;
 		}
 		.rightButton {
 		float: right;
@@ -103,10 +107,17 @@ background-attachment: fixed;
 		}
 	#main {
 	width:90%;
-	margin: auto;
+	margin: auto 5%;
 	min-height: 50%;
+	float: left;
 	}
-
+	.mainTitle {
+	font-size: 4em;
+	margin-top: 4%;
+	}
+	.enter {
+	color: #1C1C1C;
+	}
 	table {
 	height: 80%;
 	width: 80%;
@@ -175,6 +186,17 @@ background-attachment: fixed;
 			.notLink {
 			cursor: default;
 			}
+			.aboutParagraphs {
+			line-height: 1.7;
+			text-indent: 3em;
+			margin: auto 5%;
+			display: block;
+			text-shadow: none;
+			}
+			.aboutHeader {
+			margin: 2% auto;
+			display: block;
+			}
 .footer {
 float:left;
 width: 80%;
@@ -182,6 +204,13 @@ height: 20%;
 margin: 2% 10%;
 color: black;
 border-top: 1px solid #1C1C1C;
+}
+.footerMain {
+float: left;
+width: 80%;
+height: 20%;
+margin: 2% 10%;
+color: black;
 }
 	#credit {
 	float: left;
@@ -202,7 +231,13 @@ border-top: 1px solid #1C1C1C;
 	font-size: 1.1em;
 	color:black;
 	text-shadow: 5px 5px 8px #1C1C1C;
-
+	}
+	#quoteMain {
+	margin: auto;
+	width: 80%;
+	line-height: 1.7em;
+	text-align: center;
+	font-size: 2em;
 	}
 		#quote:hover {
 		color: white;
