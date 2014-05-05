@@ -41,11 +41,12 @@ background-attachment: fixed;
 		}
 		h1 {
 		text-align: center;
-		margin: auto;
+		margin: auto auto 1%;
 		}
 		.sharkTankTitle {
 		text-shadow: 5px 5px 8px #2F2F2F;
 		text-decoration: underline;
+		margin-bottom: 2%;
 		}
 		h2 {
 		text-align: center;

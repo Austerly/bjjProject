@@ -17,7 +17,7 @@ opacity: 0.4;
 }
 .rotatedCounter {
 margin-left: -8%;
-margin-top: 28%;
+margin-top: auto;
 float: left;
 /* Safari */
 -webkit-transform: rotate(-90deg);
@@ -43,7 +43,7 @@ text-shadow: 5px 5px 8px black;
 
 }
 .clockwise {
-margin: 25% 75%;
+margin: auto 75%;
 width: 30%;
 text-align: center;
 /* Safari */
