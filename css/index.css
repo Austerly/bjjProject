@@ -19,7 +19,7 @@ background-attachment: fixed;
 	-moz-box-shadow: 1px 1px 5px #1C1C1C;
 	}
 	img:hover {
-	opacity: 1;
+	opacity: 1.0;
 	-webkit-box-shadow: 0 10px 50px #4d4d4d;
  	-moz-box-shadow: 0 10px 50px #4d4d4d;
  	box-shadow: 0 10px 50px #4d4d4d;
@@ -84,7 +84,7 @@ background-attachment: fixed;
  		-moz-box-shadow: 2px 2px 8px #1C1C1C;
  		box-shadow: 2px 2px 8px #1C1C1C;
  		background-color: #4d4d4d;
- 		opacity: .5;
+ 		opacity: 1;
  		color: white;
 		}
 		.leftButtons {
@@ -254,3 +254,10 @@ color: black;
 		#wiki:hover {
 		color: white;
 		}
+	h4 > a {
+	width: 100%;
+	}
+	.padder {
+	padding-bottom: 4%;
+	padding-top: 4%;
+	}
