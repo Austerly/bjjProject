@@ -52,9 +52,11 @@ background-attachment: fixed;
 		text-align: center;
 		margin: auto;
 		text-shadow: 5px 5px 8px #1C1C1C;
+		color: white;
 		}
 		h3 {
 		text-shadow: 5px 5px 8px #1C1C1C;
+		color: white;
 		}
 		.pageTitle {
 		color: white;
@@ -77,6 +79,7 @@ background-attachment: fixed;
 		box-shadow: 1px 1px 5px #1C1C1C;
 		-webkit-box-shadow: 1px 1px 5px #1C1C1C;
 	 	-moz-box-shadow: 1px 1px 5px #1C1C1C;
+	 	background-color: lightskyblue;
 
 		}
 		.buttons:hover {
@@ -94,6 +97,8 @@ background-attachment: fixed;
 		.centerButtons {
 		margin: 2% 40%;
 		text-align: center;
+		background-color: gray;
+		border-radius: 25%;
 		}
 		.rightButton {
 		float: right;
@@ -157,7 +162,7 @@ background-attachment: fixed;
 				margin-bottom: 10%;
 				}
 				.return {
-				color:red;
+				color:white;
 				}
 				.return:hover {
 				-webkit-box-shadow: 0 10px 8px #7CA4E5;
