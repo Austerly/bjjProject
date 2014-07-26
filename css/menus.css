@@ -35,7 +35,7 @@ float: left;
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .sideline {
-color: white;
+color: blue;
 font-size: 2em;
 position: fixed;
 opacity: 0.4;

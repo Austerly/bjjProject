@@ -160,7 +160,8 @@ var fullGuard = [
 [clicks = 0, videoTitle = "Escaping the Triangle Choke from Guard - Stephan Kesting",
 youtube = "https://www.youtube.com/embed/szAvJFvIzx4", subType = "legTriangle", counter = 1], 
 
-[clicks = 0, videoTitle = "Fundamentals, Grip Fighting, Passing Sequences, and Specialty Situations on Passing the Guard - Ryan Hall",
+[clicks = 0, 
+videoTitle = "Fundamentals, Grip Fighting, Passing Sequences, and Specialty Situations on Passing the Guard - Ryan Hall",
 youtube = "https://www.youtube.com/embed/y3jzIOw1ehI", subType = "fullGuardEscape", counter = 1], 
 
 [clicks = 0, videoTitle = "Sauer Guard Pass - Keith Owen",

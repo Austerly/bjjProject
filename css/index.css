@@ -1,7 +1,7 @@
 body {
-background-image:url('http://www.all-wallpapers.net/wp-content/uploads/2012/09/Shark_underwater_theme_wallpaper_High_definition_wallpaper.jpg');
-/*background-size: auto 100%;*/
-background-repeat: no-repeat;
+background-image:url('../images/wavecut.png');
+/*background-size: 100%;*/
+/*background-repeat: no-repeat;*/
 background-color: #7CA4E5;
 background-position: top center;
 background-attachment: fixed;
@@ -79,7 +79,7 @@ background-attachment: fixed;
 		box-shadow: 1px 1px 5px #1C1C1C;
 		-webkit-box-shadow: 1px 1px 5px #1C1C1C;
 	 	-moz-box-shadow: 1px 1px 5px #1C1C1C;
-	 	background-color: lightskyblue;
+	 	background-color: lightgray;
 
 		}
 		.buttons:hover {

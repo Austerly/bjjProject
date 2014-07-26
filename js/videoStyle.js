@@ -1,5 +1,5 @@
-angular.module('apper').controller('vidController', function($scope){
-  $scope.dataNum;
+// angular.module('apper').controller('vidController', function($scope){
+ // $scope.dataNum;
 
 
 
@@ -41,4 +41,4 @@ $.ajax('https://api.parse.com/1/classes/bjjLibrary',
   }
 });
 });
-});
+//});
